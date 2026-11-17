@@ -1,0 +1,63 @@
+﻿{
+    "prueba":  2,
+    "incidente":  "INC-002",
+    "fechaEvaluacion":  "2026-11-16",
+    "horaEvaluacion":  "10:10",
+    "etapa":  "en_revision_humana",
+    "evidencia":  {
+                      "reportes":  1,
+                      "entidades":  [
+                                        "ENT-C"
+                                    ],
+                      "primerReporte":  "10:00",
+                      "minutosDesdePrimerReporte":  10
+                  },
+    "entidadesDistintas":  1,
+    "primerReporte":  "10:00",
+    "consultaBitacora":  "Consultar-Bitacora.ps1 -Incidente INC-002 (no cuenta como búsqueda documental)",
+    "busquedasDocumentales":  {
+                                  "usadas":  1,
+                                  "maximo":  2,
+                                  "detalle":  [
+                                                  {
+                                                      "numero":  1,
+                                                      "consulta":  "regla general demora entidad",
+                                                      "indice":  "indice.json",
+                                                      "incluirRelacionadas":  true,
+                                                      "recuperado":  [
+                                                                         {
+                                                                             "documento":  "PROC-PAG",
+                                                                             "version":  "2026",
+                                                                             "seccion":  "4.1",
+                                                                             "motivo":  "coincidencia"
+                                                                         },
+                                                                         {
+                                                                             "documento":  "PROC-PAG",
+                                                                             "version":  "2026",
+                                                                             "seccion":  "4.2",
+                                                                             "motivo":  "relacionada (excepción)"
+                                                                         }
+                                                                     ]
+                                                  }
+                                              ]
+                              },
+    "referencias":  [
+                        {
+                            "documento":  "PROC-PAG",
+                            "version":  "2026",
+                            "seccion":  "4.1"
+                        }
+                    ],
+    "accion":  "continuar_monitoreo",
+    "recomendacion":  "Continuar monitoreo: una entidad (ENT-C) y 10 minutos desde el primer reporte, menos de 30 (PROC-PAG 2026, sección 4.1).",
+    "destinatario":  null,
+    "evidenciaInsuficiente":  false,
+    "pendientes":  [
+
+                   ],
+    "revisionHumana":  {
+                           "estado":  "pendiente",
+                           "fundamento":  "PROC-PAG 2026, sección 4.3"
+                       },
+    "decisionHumana":  null
+}

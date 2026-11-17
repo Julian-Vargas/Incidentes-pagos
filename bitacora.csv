@@ -1,0 +1,5 @@
+﻿incidente,hora,entidad,evento
+INC-001,09:15,ENT-A,demora_reportada
+INC-001,09:17,ENT-B,demora_reportada
+INC-001,09:18,ENT-A,demora_reportada
+INC-002,10:00,ENT-C,demora_reportada

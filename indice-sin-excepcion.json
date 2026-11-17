@@ -1,0 +1,29 @@
+﻿[
+    {
+        "documento":  "PROC-PAG",
+        "version":  "2025",
+        "seccion":  "4.1",
+        "titulo":  "Regla general",
+        "texto":  "Continuar monitoreo antes de los 30 minutos desde el primer reporte. A partir de 30 minutos, recomendar escalamiento a Coordinación de Pagos.",
+        "vigencia_desde":  "2025-01-01",
+        "vigencia_hasta":  "2025-12-31"
+    },
+    {
+        "documento":  "PROC-PAG",
+        "version":  "2026",
+        "seccion":  "4.1",
+        "titulo":  "Regla general",
+        "texto":  "Si solo una entidad reporta demora y han transcurrido menos de 30 minutos desde el primer reporte, continuar monitoreo. A partir de 30 minutos, recomendar escalamiento a Coordinación de Pagos.",
+        "vigencia_desde":  "2026-01-01",
+        "vigencia_hasta":  "2026-12-31"
+    },
+    {
+        "documento":  "PROC-PAG",
+        "version":  "2026",
+        "seccion":  "4.3",
+        "titulo":  "Escalamiento",
+        "texto":  "El operador humano valida la recomendación y decide si la comunica.",
+        "vigencia_desde":  "2026-01-01",
+        "vigencia_hasta":  "2026-12-31"
+    }
+]

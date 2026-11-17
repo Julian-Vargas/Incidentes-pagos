@@ -1,0 +1,64 @@
+﻿{
+    "prueba":  1,
+    "incidente":  "INC-001",
+    "fechaEvaluacion":  "2026-11-16",
+    "horaEvaluacion":  "09:20",
+    "etapa":  "en_revision_humana",
+    "evidencia":  {
+                      "reportes":  3,
+                      "entidades":  [
+                                        "ENT-A",
+                                        "ENT-B"
+                                    ],
+                      "primerReporte":  "09:15",
+                      "minutosDesdePrimerReporte":  5
+                  },
+    "entidadesDistintas":  2,
+    "primerReporte":  "09:15",
+    "consultaBitacora":  "Consultar-Bitacora.ps1 -Incidente INC-001 (no cuenta como búsqueda documental)",
+    "busquedasDocumentales":  {
+                                  "usadas":  1,
+                                  "maximo":  2,
+                                  "detalle":  [
+                                                  {
+                                                      "numero":  1,
+                                                      "consulta":  "regla general demora entidad",
+                                                      "indice":  "indice.json",
+                                                      "incluirRelacionadas":  true,
+                                                      "recuperado":  [
+                                                                         {
+                                                                             "documento":  "PROC-PAG",
+                                                                             "version":  "2026",
+                                                                             "seccion":  "4.1",
+                                                                             "motivo":  "coincidencia"
+                                                                         },
+                                                                         {
+                                                                             "documento":  "PROC-PAG",
+                                                                             "version":  "2026",
+                                                                             "seccion":  "4.2",
+                                                                             "motivo":  "relacionada (excepción)"
+                                                                         }
+                                                                     ]
+                                                  }
+                                              ]
+                              },
+    "referencias":  [
+                        {
+                            "documento":  "PROC-PAG",
+                            "version":  "2026",
+                            "seccion":  "4.2"
+                        }
+                    ],
+    "accion":  "escalar",
+    "recomendacion":  "Escalamiento inmediato a Coordinación de Pagos: dos entidades distintas (ENT-A, ENT-B) reportan demoras (PROC-PAG 2026, sección 4.2).",
+    "destinatario":  "Coordinación de Pagos",
+    "evidenciaInsuficiente":  false,
+    "pendientes":  [
+
+                   ],
+    "revisionHumana":  {
+                           "estado":  "pendiente",
+                           "fundamento":  "PROC-PAG 2026, sección 4.3"
+                       },
+    "decisionHumana":  null
+}

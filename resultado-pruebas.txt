@@ -1,0 +1,40 @@
+﻿Prueba final - 2026-11-17 11:35:14
+
+1. Incidente principal: INC-001, 2026-11-16, 09:20
+  OK    2 entidades afectadas
+  OK    Escalar a Coordinación de Pagos
+  OK    Cita exactamente PROC-PAG 2026 4.2
+  OK    Etapa en_revision_humana
+  OK    Revisión humana pendiente
+  OK    Búsquedas documentales <= 2 y detalladas
+  OK    "recuperado" siempre es lista JSON
+  OK    Trazabilidad: la cita PROC-PAG 2026 4.2 fue recuperada
+
+2. Caso de control: INC-002, 2026-11-16, 10:10
+  OK    1 entidad y 10 minutos
+  OK    Continuar monitoreo
+  OK    Cita exactamente PROC-PAG 2026 4.1
+  OK    Revisión humana pendiente
+  OK    Búsquedas documentales <= 2 y detalladas
+  OK    "recuperado" siempre es lista JSON
+  OK    Trazabilidad: la cita PROC-PAG 2026 4.1 fue recuperada
+
+3. Consulta histórica: INC-001, 2025-11-16, 09:20
+  OK    Recupera solo la versión 2025
+  OK    Continuar monitoreo con 5 minutos
+  OK    Cita exactamente PROC-PAG 2025 4.1
+  OK    Revisión humana pendiente
+  OK    Búsquedas documentales <= 2 y detalladas
+  OK    "recuperado" siempre es lista JSON
+  OK    Trazabilidad: la cita PROC-PAG 2025 4.1 fue recuperada
+
+4. Evidencia insuficiente: INC-001, 2026-11-16, 09:20, indice-sin-excepcion.json
+  OK    Estado evidencia insuficiente
+  OK    Lista las dos búsquedas hechas
+  OK    No aplica 4.1: sin recomendación ni cita
+  OK    Pendiente: regla para múltiples entidades
+  OK    Revisión humana pendiente
+  OK    Búsquedas documentales <= 2 y detalladas
+  OK    "recuperado" siempre es lista JSON
+
+Resultado: TODO OK

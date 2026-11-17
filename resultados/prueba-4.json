@@ -1,0 +1,63 @@
+﻿{
+    "prueba":  4,
+    "incidente":  "INC-001",
+    "fechaEvaluacion":  "2026-11-16",
+    "horaEvaluacion":  "09:20",
+    "etapa":  "evidencia_insuficiente",
+    "evidencia":  {
+                      "reportes":  3,
+                      "entidades":  [
+                                        "ENT-A",
+                                        "ENT-B"
+                                    ],
+                      "primerReporte":  "09:15",
+                      "minutosDesdePrimerReporte":  5
+                  },
+    "entidadesDistintas":  2,
+    "primerReporte":  "09:15",
+    "consultaBitacora":  "Consultar-Bitacora.ps1 -Incidente INC-001 (no cuenta como búsqueda documental)",
+    "busquedasDocumentales":  {
+                                  "usadas":  2,
+                                  "maximo":  2,
+                                  "detalle":  [
+                                                  {
+                                                      "numero":  1,
+                                                      "consulta":  "regla general demora entidad",
+                                                      "indice":  "indice-sin-excepcion.json",
+                                                      "incluirRelacionadas":  true,
+                                                      "recuperado":  [
+                                                                         {
+                                                                             "documento":  "PROC-PAG",
+                                                                             "version":  "2026",
+                                                                             "seccion":  "4.1",
+                                                                             "motivo":  "coincidencia"
+                                                                         }
+                                                                     ]
+                                                  },
+                                                  {
+                                                      "numero":  2,
+                                                      "consulta":  "múltiples entidades",
+                                                      "indice":  "indice-sin-excepcion.json",
+                                                      "incluirRelacionadas":  true,
+                                                      "recuperado":  [
+
+                                                                     ]
+                                                  }
+                                              ]
+                              },
+    "referencias":  [
+
+                    ],
+    "accion":  null,
+    "recomendacion":  null,
+    "destinatario":  null,
+    "evidenciaInsuficiente":  true,
+    "pendientes":  [
+                       "Confirmar si existe una regla vigente para dos o más entidades que reportan demora en el mismo incidente (la 4.1 recuperada exige una sola entidad)"
+                   ],
+    "revisionHumana":  {
+                           "estado":  "pendiente",
+                           "fundamento":  "PROC-PAG 2026, sección 4.3"
+                       },
+    "decisionHumana":  null
+}
